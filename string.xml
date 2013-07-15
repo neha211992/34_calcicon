@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">calcicon</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_convertor">Convertor</string>
+   <string-array  name ="unittochange" >
+        <item>temperature</item>
+        <item >weight</item>
+         <item >length</item>
+         <item >area</item>
+         <item >vloume</item>
+    </string-array>  
+     <string-array  name ="Changefrom1" >
+       <item>feh</item>
+        <item >cel</item>
+         <item >kelvin</item>
+         </string-array>
+          <string-array  name ="Changefrom2" >
+           <item> inches</item>   
+    <item >feet</item>
+       <item >yards</item>
+        <item >miles</item> 
+       <item >cm</item>
+       <item >meter</item>
+       <item >kilometer</item>
+       <item>millimeter</item>
+       </string-array>
+       <string-array  name ="Changefrom3" >
+       <item >ounces</item>
+       <item>pounds</item>
+       <item >gram </item>
+        <item>kilogram</item>
+        <item >carat</item>
+        <item>metricton</item>
+         </string-array>
+          <string-array  name ="Changefrom4" >
+        <item >sqinches</item>
+         <item >sqfeet</item>
+        <item >sqyards</item>
+        <item >sqmiles</item>
+        <item >sqcm</item>
+        <item >sqmeter</item>
+        <item>hectares</item>
+        <item >sqkilometer</item>
+        </string-array>
+         <string-array  name ="Changefrom5" >
+        <item >liter</item>
+         <item>milliliter</item>
+         <item>cubicfeet</item>
+         <item>cubicyard</item>
+         <item >cubicmeter</item>
+         <item>gallons</item>
+         <item>quarts</item>
+    </string-array>    
+    
+</resources>

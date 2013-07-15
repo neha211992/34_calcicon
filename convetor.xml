@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Convertor" >
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:inputType="numberDecimal" 
+         android:textStyle="bold"
+        android:background="@drawable/shape"/>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText2"
+        android:entries="@array/unittochange"
+       android:textStyle="bold"
+                android:background="@drawable/shape1"
+        />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spinner1"
+        android:layout_marginTop="14dp" 
+         android:textStyle="bold"
+                android:background="@drawable/shape1"
+        />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spinner2"
+        android:layout_marginTop="80dp" 
+         android:textStyle="bold"
+                android:background="@drawable/shape1"
+       />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:text="TO"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textStyle="bold"
+                android:background="@drawable/shape" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner3"
+        android:layout_marginRight="29dp"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/textView1"
+        android:onClick="convert"
+        android:text="Convert" 
+         android:textStyle="bold"
+                android:background="@drawable/shape1"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="pass result"
+        android:onClick="moveon" 
+         android:textStyle="bold"
+                android:background="@drawable/shape1"/>
+
+</RelativeLayout>
